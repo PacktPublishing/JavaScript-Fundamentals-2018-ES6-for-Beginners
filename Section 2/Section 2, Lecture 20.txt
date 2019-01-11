@@ -1,0 +1,8 @@
+Source Code
+Section 2, Lecture 20
+let myArray = [5, 77, 344, "Hello", "World"];
+let [a, b, c, d] = myArray;
+a++;
+console.log(a, b, c, d);
+Resources for this lecture
+script14.js

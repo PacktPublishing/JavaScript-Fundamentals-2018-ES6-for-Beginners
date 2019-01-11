@@ -1,0 +1,43 @@
+Source Code
+Section 3, Lecture 24
+let num = 10;
+testOne(4); //11
+testOne("New"); //12
+let a = testTwo(num);
+//console.log(a);
+let b = "Hello";
+testThree(b);
+/*console.log(test4(5));
+console.log(test4(5,8));*/
+console.log(test5(5));
+console.log(test5(5,8));
+function test5(x,y){
+    //y =  (typeof y !== 'undefined') ? y : 10;
+    y = y || 20;
+    console.log(x);
+    console.log(y);
+    return x * y;
+    
+}
+function test4(x,y=10){
+    console.log(x);
+    console.log(y);
+    return x * y;
+}
+function testThree(str) {
+    let b = "New";
+    //console.log(b + " World");
+}
+function testTwo(arg) {
+    arg++;
+    return arg * arg;
+}
+function testOne(val) {
+    //console.log(val);
+    let hello = val + " Hello World ";
+    num++;
+    //console.log(hello + num);
+    return hello;
+}
+Resources for this lecture
+script17.js

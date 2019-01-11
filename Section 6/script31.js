@@ -1,0 +1,16 @@
+let mySet = new Set();
+mySet.add('my tester string');
+mySet.add(55);
+mySet.add('hello');
+mySet.add('hello');
+console.log(mySet);
+
+for(let element of mySet){
+    console.log(element);   
+}
+
+console.log(mySet.size);
+console.log(mySet.has('hello2'));
+
+let mySet2 = new Set([4,6556,2332,121,12,1221,1221,21231]);
+console.log(mySet2);

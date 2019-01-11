@@ -1,0 +1,16 @@
+Source Code
+Section 4, Lecture 31
+let messages = {
+    welcome : ['Welcome first','Welcome second'],
+    hello : function(){
+        console.log('Hello how are you?') 
+    },
+    goodbye : function(){
+        console.log('Thanks for coming Bye now')   
+    },
+    output : function(mes){
+        console.log(mes);   
+    }
+}
+Resources for this lecture
+script20-1.js

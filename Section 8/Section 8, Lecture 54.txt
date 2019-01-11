@@ -1,0 +1,23 @@
+Links Resources ebook pdf
+Section 8, Lecture 54
+Tools and Resources
+
+http://brackets.io/ 
+
+Keyboard shortcuts for opening DevTools
+To open DevTools, press the following keyboard shortcuts while your cursor is focused on the browser viewport:
+
+Action Mac Windows / Linux
+Open whatever panel you used last Command+Option+I F12 or Control+Shift+I
+Open the Console panel Command+Option+J Control+Shift+J
+Open the Elements panel Command+Option+C Control+Shift+C
+
+
+
+
+
+
+
+
+Resources for this lecture
+ES6 (1).pdf
